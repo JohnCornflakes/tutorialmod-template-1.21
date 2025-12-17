@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/JohnCornflakes/tutorialmod-template-1.21"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.johncornflakes.tutorialmod.TutorialModDataGenerator"
-		]
+		],
+        "client": [
+          "net.johncornflakes.tutorialmod.TutorialModClient"
+        ]
 	},
 	"mixins": [
 		"tutorialmod.mixins.json"
