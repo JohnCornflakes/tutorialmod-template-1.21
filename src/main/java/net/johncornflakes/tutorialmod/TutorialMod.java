@@ -2,7 +2,11 @@ package net.johncornflakes.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.johncornflakes.tutorialmod.block.ModBlocks;
+import net.johncornflakes.tutorialmod.item.ModItemGroups;
 import net.johncornflakes.tutorialmod.item.ModItems;
+import net.minecraft.entity.mob.CreeperEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +24,9 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
+        FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 		LOGGER.info("Hello Fabric world!");
 	}
 }
