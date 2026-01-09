@@ -3,6 +3,7 @@ package net.johncornflakes.tutorialmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.johncornflakes.tutorialmod.block.ModBlocks;
+import net.johncornflakes.tutorialmod.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -25,5 +26,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.PINK_GARNET_FENCE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.PINK_GARNET_WALL);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.PINK_GARNET_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PINK_GARNET_TOOL).add(ModBlocks.MAGIC_BLOCK).addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.MAGIC_BLOCK);
     }
 }

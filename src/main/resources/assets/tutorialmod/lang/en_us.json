@@ -14,5 +14,27 @@
   "tooltip.tutorialmod.magic_block.tooltip1": "hi",
   "tooltip.tutorialmod.chisel.shift_down": "This item chisels blocks into bricks!",
   "tooltip.tutorialmod.chisel": "Press Shift for more information",
-  "tooltip.tutorialmod.cauliflower.tooltip": "This is a §6cauliflower§r"
+  "tooltip.tutorialmod.cauliflower.tooltip": "This is a §6cauliflower§r",
+
+  "block.tutorialmod.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.tutorialmod.pink_garnet_slab": "Pink Garnet Slab",
+  "block.tutorialmod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.tutorialmod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.tutorialmod.pink_garnet_button": "Pink Garnet Button",
+  "block.tutorialmod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.tutorialmod.pink_garnet_trap_door": "Pink Garnet Trap Door",
+  "block.tutorialmod.pink_garnet_wall": "Pink Garnet Wall",
+  "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",
+
+  "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
+
+  "item.tutorialmod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.tutorialmod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.tutorialmod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.tutorialmod.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.tutorialmod.pink_garnet_axe": "Pink Garnet Axe",
+
+  "item.tutorialmod.pink_garnet_hammer": "Pink Garnet Hammer"
+
+
 }

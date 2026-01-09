@@ -7,6 +7,7 @@ import net.johncornflakes.tutorialmod.util.ModTags;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -24,5 +25,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.COAL)
                 .add(ModItems.RAW_PINK_GARNET)
                 .add(ModItems.PINK_GARNET);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS).add(ModItems.PINK_GARNET_SWORD);
+        getOrCreateTagBuilder(ItemTags.AXES).add(ModItems.PINK_GARNET_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS).add(ModItems.PINK_GARNET_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.PICKAXES).add(ModItems.PINK_GARNET_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.HOES).add(ModItems.PINK_GARNET_HOE);
+
     }
 }
